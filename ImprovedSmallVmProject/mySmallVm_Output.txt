@@ -1,0 +1,14 @@
+David Adams, CSCI 4200, Fall 2023
+****************************************
+Enter the first number:
+-12
+Enter the second number:
+3
+The average of
+-12
+and
+3
+is
+-4
+H A V E A N I C E D A Y !
+****************************************
