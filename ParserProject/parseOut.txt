@@ -1,0 +1,206 @@
+David Adams, CSCI4200, Fall 2023, Parser
+********************************************************************************
+PROGRAM
+    read(count);
+    total = 205;
+    	Area = (length+width) * 20
+    C =		age - 15 * (D / 8);
+    print(C+Area);
+    if (C) then C = 99;
+    if (count) then average = total/count else print(count)
+END
+********************
+Next token is: {"PROGRAM", PROGRAM_KEYWORD}
+Enter <program>
+Next token is: {"read", READ_KEYWORD}
+Enter <statement>
+Enter <input>
+Next token is: {"(", LEFT_PAREN}
+Next token is: {"count", IDENT}
+Next token is: {")", RIGHT_PAREN}
+Exit <input>
+Next token is: {";", SEMICOLON}
+Exit <statement>
+Next token is: {"total", IDENT}
+Enter <statement>
+Enter <assign>
+Next token is: {"=", ASSIGN_OP}
+Next token is: {"205", INT_LIT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <assign>
+Next token is: {";", SEMICOLON}
+Exit <statement>
+Next token is: {"Area", IDENT}
+Enter <statement>
+Enter <assign>
+Next token is: {"=", ASSIGN_OP}
+Next token is: {"(", LEFT_PAREN}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Next token is: {"length", IDENT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Next token is: {"+", ADD_OP}
+Next token is: {"width", IDENT}
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Next token is: {")", RIGHT_PAREN}
+Exit <factor>
+Next token is: {"*", MULT_OP}
+Next token is: {"20", INT_LIT}
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <assign>
+**Error** - missing semicolon
+Exit <statement>
+Next token is: {"C", IDENT}
+Enter <statement>
+Enter <assign>
+Next token is: {"=", ASSIGN_OP}
+Next token is: {"age", IDENT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Next token is: {"-", SUB_OP}
+Next token is: {"15", INT_LIT}
+Enter <term>
+Enter <factor>
+Exit <factor>
+Next token is: {"*", MULT_OP}
+Next token is: {"(", LEFT_PAREN}
+Enter <factor>
+Next token is: {"D", IDENT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Next token is: {"/", DIV_OP}
+Next token is: {"8", INT_LIT}
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Next token is: {")", RIGHT_PAREN}
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <assign>
+Next token is: {";", SEMICOLON}
+Exit <statement>
+Next token is: {"print", PRINT_KEYWORD}
+Enter <statement>
+Enter <output>
+Next token is: {"(", LEFT_PAREN}
+Next token is: {"C", IDENT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Next token is: {"+", ADD_OP}
+Next token is: {"Area", IDENT}
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Next token is: {")", RIGHT_PAREN}
+Exit <output>
+Next token is: {";", SEMICOLON}
+Exit <statement>
+Next token is: {"if", IF_KEYWORD}
+Enter <statement>
+Enter <selection>
+Next token is: {"(", LEFT_PAREN}
+Next token is: {"C", IDENT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Next token is: {")", RIGHT_PAREN}
+Next token is: {"then", THEN_KEYWORD}
+Next token is: {"C", IDENT}
+Enter <statement>
+Enter <assign>
+Next token is: {"=", ASSIGN_OP}
+Next token is: {"99", INT_LIT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <assign>
+Exit <statement>
+Exit <selection>
+Next token is: {";", SEMICOLON}
+Exit <statement>
+Next token is: {"if", IF_KEYWORD}
+Enter <statement>
+Enter <selection>
+Next token is: {"(", LEFT_PAREN}
+Next token is: {"count", IDENT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Next token is: {")", RIGHT_PAREN}
+Next token is: {"then", THEN_KEYWORD}
+Next token is: {"average", IDENT}
+Enter <statement>
+Enter <assign>
+Next token is: {"=", ASSIGN_OP}
+Next token is: {"total", IDENT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Next token is: {"/", DIV_OP}
+Next token is: {"count", IDENT}
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Exit <assign>
+Exit <statement>
+Next token is: {"else", ELSE_KEYWORD}
+Next token is: {"print", PRINT_KEYWORD}
+Enter <statement>
+Enter <output>
+Next token is: {"(", LEFT_PAREN}
+Next token is: {"count", IDENT}
+Enter <expr>
+Enter <term>
+Enter <factor>
+Exit <factor>
+Exit <term>
+Exit <expr>
+Next token is: {")", RIGHT_PAREN}
+Exit <output>
+Exit <statement>
+Exit <selection>
+Exit <statement>
+Next token is: {"END", END_KEYWORD}
+Exit <program>
+Parsing of the program is complete!
+********************************************************************************

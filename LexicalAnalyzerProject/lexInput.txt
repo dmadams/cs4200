@@ -1,0 +1,8 @@
+PROGRAM
+	read(count);
+	total = 250
+	if (count) then average = total/count;
+       		Area = (length+width) * 2
+	C     =          age  - 5 * (Age / C);
+	print(C+Area);
+END
